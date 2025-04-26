@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>titan2wmc Control Panel</h1>
+<div class="status">
+    <h2>Current Status</h2>
+    <pre>{{ status | tojson(indent=2) }}</pre>
+</div>
+<div class="actions">
+    <button onclick="updateListings()">Update Listings</button>
+</div>
+<div id="message"></div>
+{% endblock %}

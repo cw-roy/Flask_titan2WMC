@@ -1,3 +1,15 @@
+# Custom
+scratchpad.py
+reference_api_responses/
+reference_mxf_files/
+data/
+logs/
+*.mxf
+*.pdf
+*.json
+*.xml
+*.lnk
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
